@@ -14,21 +14,42 @@ const Home = () => {
   };
   return (
     <div>
-      <h1>Home</h1>
-      <p>{name}</p>
-      <p>{age}</p>
-      <button onClick={handleClick}>Click Me</button>
-      <button
-        onClick={
-          //first parameter is event.
-          (e) => {
-            //console.log("Click me Again");
-            handleClickAgain("mesut", e);
-          }
-        }
-      >
-        Click me Again
-      </button>
+      <div>
+        <h2>Software Development</h2>
+        <p>
+          <strong>
+            With solutions developed primarily for finance sector, we provide
+            services in analysis, design, development, testing and
+            implementation of various applications with popular programming
+            languages and technologies.
+          </strong>
+        </p>
+      </div>
+      <div>
+        <h2>Consultancy</h2>
+        <p>
+          <strong>
+            Efficient use of Information Technologies is one of the most
+            important elements for institutionsto ensure and maintain their
+            competitive edge in domestic and international markets, act fast and
+            quickly adapt to changing conditions. To achive this, we give
+            Consultancy and education about popular programming languages such
+            as C#, PLSql, Java and databases like Oracle 9i,10g,11g, MS Sql
+            Server, MySql.
+          </strong>
+        </p>
+      </div>
+      <div>
+        <h2>Outsourcing</h2>
+        <p>
+          <strong>
+            With our different service models we provide on your behalf
+            operational efficiency for your information technology operations
+            with our expert teams. We enable our clients to focus on fields with
+            high professional competences.
+          </strong>
+        </p>
+      </div>
     </div>
   );
 };
