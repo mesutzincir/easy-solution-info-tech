@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>;<h2>who we are?</h2>
+    <div class="itservice">
+      <h2>who we are?</h2>
       <p>
         Easy Solution Information Technology is established in order to provide
         information solutions to all sectors especially to finance sector. It

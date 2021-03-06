@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.itservice {
+  border: 0.1em solid black;
+  text-align: left;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.itservice h2 {
+  margin-bottom: 0.5em;
+}
+
+.itservice p {
+  margin-bottom: 0.5em;
+  line-height: 1.8em;
+}
